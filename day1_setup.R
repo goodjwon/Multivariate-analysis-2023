@@ -81,3 +81,9 @@ year = social[,1]
 year
 rownames(social2)<-year
 stars(social2)
+
+
+# 얼굴그림.
+install.packages("aplpack")
+
+library("aplpack")
